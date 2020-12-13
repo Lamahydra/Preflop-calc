@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="is">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Preflop calculator</title>
+  </head>
+  <body>
+  	<div class="flex mainLeft">
+  		<div>
+  			<h3> Enter your hand:</h3>
+  			<div><input type="text" id="inputBox" maxlength="3" required></div>
+  			<p> example: KJs, 54o. </p>
+  			<div class="gtoMe" id="gtoBtn" onclick="gtoMe()"><p>gto me</p></div>
+  			<div><span id="answer"></span></div>
+  		</div>
+  		<div class="mainRight flex">
+  			<div>
+  				<div class="flex">
+  					<p>utg</p>
+  				</div>
+  				<div class="flex">
+  					<p>hj</p>
+  				</div>
+  				<div class="flex">
+  					<p>co</p>
+  				</div>
+  				<div class="flex">
+  					<p>btn</p>
+  				</div>
+  				<div class="flex">
+  					<p>sb</p>
+  				</div>
+  				<div class="flex">
+  					<p>bb</p>
+  				</div>
+  			</div>
+  			<div id="orderBox"></div>
+  		</div>
+  	</div>
+
+
+  	<script src="js/scripts.js"></script>
+  </body>
+</html>
